@@ -25,3 +25,5 @@ All the build script is placed under `/script` folder.
 
     ./build
 
+It will build the sources into HTML, TeX, and PDF under `/out`
+
