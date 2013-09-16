@@ -78,7 +78,6 @@ for i in ${orderedFile} ; do
   pandocHtmlCmd="${pandocHtmlCmd} -A ${cvOutDir}/${i}.html"
 done
 pandocHtmlCmd="${pandocHtmlCmd} ${cvSrcDir}/cv.md"
-echo ${pandocHtmlCmd}
 eval ${pandocHtmlCmd}
 
 ###
@@ -101,9 +100,7 @@ pandocRefHtmlOut=${cvOutDir}/references.html
 pandoc --section-divs -f markdown -t html5 -o "${pandocRefHtmlOut}" \
     "${cvSrcDir}/references.md"
 
- Convert HTML to PDF
-echo pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocRefHtmlOut}" \
-    -o "${cvOutDir}/${author} - References - $(date +%Y-%m-%d).pdf"
+# Convert HTML to PDF
 pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocRefHtmlOut}" \
     -o "${cvOutDir}/${author} - References - $(date +%Y-%m-%d).pdf"
 fi
