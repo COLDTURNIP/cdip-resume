@@ -61,6 +61,7 @@ orderedFile="       \
   education         \
   research          \
   experience-extra  \
+  links             \
   "
 
 ###
