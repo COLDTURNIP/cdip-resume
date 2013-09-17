@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+  /*
+  YUI 3.12.0 (build 8655935)
+  Copyright 2013 Yahoo! Inc. All rights reserved.
+  Licensed under the BSD License.
+  http://yuilibrary.com/license/
+  */
+  html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+  
+  /*** Start Vanilla CSS 1.0.2 */ body{font:9pt/1.5em sans-serif;}pre,code,tt{font:1em/1.5em ‘Andale Mono’,'Lucida Console’,monospace;'}h1,h2,h3,h4,h5,h6,b,strong{font-weight:bold;}em,i,dfn{font-style:italic;}dfn{font-weight:bold;}p,code,pre,kbd{margin:0 0 1.5em 0;}blockquote{margin:0 1.5em 1.5em 1.5em;}cite{font-style:italic;}li ul,li ol{margin:0 1.5em;}ul,ol{margin:0 1.5em 1.5em 1.5em;}ul{list-style-type:disc;}ol{list-style-type:decimal;}ol ol{list-style:upper-alpha;}ol ol ol{list-style:lower-roman;}ol ol ol ol{list-style:lower-alpha;}dl{margin:0 0 1.5em 0;}dl dt{font-weight:bold;}dd{margin-left:1.5em;}table{margin-bottom:1.4em;width:100%;}th{font-weight:bold;}th,td,caption{padding:4px 10px 4px 5px;}tfoot{font-style:italic;}sup,sub{line-height:0;}abbr,acronym{border-bottom:1px dotted;}address{margin:0 0 1.5em;font-style:italic;}del{text-decoration:line-through;}pre{margin:1.5em 0;white-space:pre;}img.centered,.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}img.alignright{display:inline;}img.alignleft{display:inline;}.alignright{float:right;margin-left:10px;}.alignleft{float:left;margin-right:10px;}img { max-width: 100%; }* html .clearfix{height:1%;}*+html .clearfix{display:inline-block;}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}* html .group{height:1%;}*+html .group{display:inline-block;}.group:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+  
+  body {
+    background: #FBFBFB;
+    color: #333;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    width: 73.076em;
+    margin: auto;
+  }
+  
+  h1, h2, h3, h4, h5 { margin: 0; padding; 0; line-height: 1.2em }
+  p, ul, ol { font-size: 0.875em; line-height: 1.188em; margin: 2px 0 10px 0; padding: 0; }
+  ul { margin: 10px; list-style-type: square; }
+  li { margin: 0 0 3px 10px; padding: 0 0 3px 3px; line-height: 18px; }
+  
+  #cv {
+    padding-top: 2em;
+    margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc;
+    margin-left: auto; margin-right: auto;
+    text-align: left;
+    width: 90%;
+  }
+  
+  #cv > h1, #cv > h2, #cv > h3 {
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    font-family: Georgia, serif;
+  }
+  
+  #cv h1 {
+    font-size: 3em;
+  }
+  
+  #cv h2, #cv h3 {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  #contact h2 {
+    width: 35%;
+    float: left;
+  }
+  
+  #contact > p {
+    width: 63%;
+    margin-left: 1.99%;
+    margin-top: 10px;
+    float: right;
+    text-align: right
+  }
+  
+  .sec > *:not(h1):not(h2):not(h3) {
+    width: 76%;
+    margin-left: 1.99%;
+    float: right;
+  }
+  
+  .sec *:not(h1):not(h2) {
+    text-align: left;
+  }
+  
+  .sec h1, .sec h2, .sec h3 {
+    font-family: Georgia, serif;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    padding-bottom: 5px;
+  }
+  
+  .sec > h1, .sec > h2 {
+    font-size: 1.25em;
+    width: 20%;
+    float: left;
+  }
+  
+  .sec h3 {
+    font-size: 1.25em;
+    margin: 5px;
+  }
+  
+  .sec {
+    width: 88%;
+    page-break-inside: avoid;
+    margin: auto;
+    margin-bottom: 1.5em; padding-bottom: 1.5em; border-bottom: 1px solid #ccc;
+  }
+  
+  .skill { margin-bottom: 10px; }
+  
+  .skill li {
+    padding: 0;
+    width: 31%;
+    margin: 0 0 7px 1.77%;
+    padding: 0 0 2px 1px;
+    float: left;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  img {
+      padding: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+  }
+  
+  a {
+      text-decoration: none;
+      color: #333;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  </style>
+  
+</head>
+<body>
+<section id="cv" class="level1 group">
+<h1>Yun-Chang (Raphanus) Lo, 羅運昌</h1>
+<section id="contact" class="level2">
+<h2>Software Engineer</h2>
+<p>5F., No.296, Fude St., Xinyi Dist., Taipei City 110, Taiwan (R.O.C.)<br />coldturnip@gmail.com • raphanus_lo@asus.com • http://about.me/coldturnip<br />+886-919-554138</p>
+</section>
+</section>
+<section id="description" class="level2 sec group">
+<h2>Description</h2>
+<p>Yun-Chang (Raphanus) Lo is a system programmer.</p>
+<p>As a Android developer, he is a BSP engineer dedicated on framework layer and Linux kernel drivers.</p>
+<p>As a student, he majored in signal processing in distributed wireless communication system.</p>
+</section>
+<section id="experience" class="level2 sec group">
+<h2>Professional Experience: Software Development</h2>
+<section id="asustek-computer-inc.-systems-business-group-taipei" class="level3">
+<h3>ASUSTeK Computer Inc., Systems Business Group, Taipei</h3>
+<p>BSP Software Engineer (2009-Present)</p>
+<ul>
+<li><strong>3GPP SIM/USIM</strong> related RIL functions maintainer (2009-Present)</li>
+<li><strong>Bluetooth</strong> fucntion owner (BlueZ, 2011-2012)</li>
+<li><strong>USB</strong> function owner (HSIC host / gadget device driver, 2012-Present)</li>
+<li>Implement SIM/USIM EF header parser, dynamic USB port selector, and other native libraries / services in <strong>C/C++</strong></li>
+<li>Implement <strong>automatic time / time zone detecting service</strong> on HomeyComb, and IANA time zone database debugging.</li>
+<li>Design / implement / refact some abstract layers in <strong>Android RIL framework</strong> to improve platform compatibility.</li>
+<li>Write <strong>Python</strong> and <strong>Bash/Ash shell scripts</strong> in need of automated production/tests in factory.</li>
+<li>Use <strong>Vim</strong>, <strong>Python</strong>, and <strong>Go</strong> to make logs analysis and patch maintenance much simpler.</li>
+<li>Proficient in code flow of Android framework, native services, build system, and Linux kernel.</li>
+<li>On-site support
+<ul>
+<li><strong>Google Nexus 7 (2012)</strong>, RIL, USB, and system development, Mountain View, Oct 2012</li>
+<li><strong>Google Nexus 7 (2013)</strong>, RIL and USB development, Mountain View, Mar 2013</li>
+<li><strong>Google Nexus 7 (2013)</strong> and ME302KL, factory technical support, Shanghai, May 2013</li>
+<li><strong>Google Nexus 7 (2013)</strong>, RIL, USB, and system development, Mountain View, Jun 2013</li>
+</ul></li>
+<li>Involved Projects
+<ul>
+<li>Garmin-ASUS A50/A50: RIL</li>
+<li>Transformer TF101/G/WiMAX, TF201, Slider SL101: RIL, Bluetooth</li>
+<li>Transformer TF300T/TG/TL, TF700T, ME301T, ME302KL: RIL, USB</li>
+<li>Google Nexus 7 (2012/2013): RIL, USB</li>
+<li>FonePad ME560CG: RIL</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="skills" class="level2 sec group">
+<h2>Skills</h2>
+<section id="general-purpose" class="level3 skill group">
+<h3>General Purpose</h3>
+<ul>
+<li>GDB</li>
+<li>GNU binutils / strace</li>
+<li>TCP dump / iperf</li>
+<li>hprof, Valgrind</li>
+<li>Git, Vim, Zsh, tmux, ...</li>
+</ul>
+</section>
+<section id="programming-lanugages" class="level3 skill group">
+<h3>Programming Lanugages</h3>
+<ul>
+<li>C / C++98</li>
+<li>Java (Davlik)</li>
+<li>Python</li>
+<li>Shell Script (Bash/Zsh/Ash)</li>
+<li>Go</li>
+</ul>
+</section>
+<section id="platform-specific" class="level3 skill group">
+<h3>Platform Specific</h3>
+<ul>
+<li>Dalvik Dex file reverse engineering</li>
+<li>Android logging system / dumpstates / DDMS / traceview</li>
+<li>Linux kernel logs / sysfs / coredump</li>
+<li>Android CTS framework</li>
+</ul>
+</section>
+</section>
+<section id="education" class="level2 sec group">
+<h2>Education</h2>
+<section id="national-tsing-hua-university" class="level3">
+<h3>National Tsing Hua University</h3>
+<ul>
+<li>M.S., Communication Engineering, 2007–2009<br />Majors: Wireless Signal Processing, Communication Theory</li>
+</ul>
+</section>
+<section id="national-central-university" class="level3">
+<h3>National Central University</h3>
+<ul>
+<li>B.A., Communication Engineering, 2003–2007<br />Majors: Communication Engineering</li>
+</ul>
+</section>
+</section>
+<section id="reserch" class="level2 sec group">
+<h2>Research Experiences</h2>
+<ul>
+<li>蔡育仁, 林立晟, <strong>羅運昌</strong>, 蔣志彥. <em>無線區域網路之網路拓撲探勘技術研究</em>, Chung Shan Institute of Science and Technology, 2008</li>
+<li><strong>Yun-Chang Lo</strong>. <em>Estimation of Multiple Sources Using E-M Algorithm in Distributed Wireless Sensor Networks</em>, 2009</li>
+</ul>
+</section>
+<section id="extra" class="level2 sec group">
+<h2>Extra Curriculum Experience</h2>
+<ul>
+<li><strong>Scout in National Flower Class</strong>,<br /> The 38/308/380th Taipei Scout Group of Tatung Co., Scouts of China (1996-2004)</li>
+<li><strong>Chairman</strong>, Infomation Department in Student Association of CE Department,<br /> NCU (2004-2005)</li>
+<li><strong>Member</strong>, SNMG (System and Network Management Group),<br /> Department of EE/CE, NCU (2004-2006)</li>
+</ul>
+</section>
+</body>
+</html>
