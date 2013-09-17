@@ -43,6 +43,12 @@ cvDir=$(gettop)
 cvSrcDir=${cvDir}/src
 cvOutDir=${cvDir}/out
 
+[[ ! -d ${cvOutDir} ]] && mkdir ${cvOutDir}
+if [[ ! -d ${cvOutDir} ]]; then
+  echo "Error: cannot create folder ${cvOutDir} as output folder, abort."
+  exit 2
+fi
+
 # Name of the CV file
 author="Yun-Chang (Raphanus) Lo"
 cvName="${author} - CV - $(date +%Y-%m-%d)"
