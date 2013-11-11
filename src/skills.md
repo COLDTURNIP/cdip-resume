@@ -8,7 +8,7 @@
 - hprof, Valgrind
 - Git, Vim, Zsh, tmux, ...
 
-### Programming Lanugages {.skill .group}
+### Programming Languages {.skill .group}
 
 - C / C++98
 - Java (Davlik)
