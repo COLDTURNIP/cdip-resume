@@ -2,11 +2,11 @@
 
 ### ASUSTeK Computer Inc., Systems Business Group, Taipei
 
-BSP Software Engineer (2009-Present)
+BSP Software Engineer (2009-2013)
 
-  - **3GPP SIM/USIM** related RIL functions maintainer (2009-Present)
+  - **3GPP SIM/USIM** related RIL functions maintainer (2009-2013)
   - **Bluetooth** fucntion owner (BlueZ, 2011-2012)
-  - **USB** function owner (HSIC host / gadget device driver, 2012-Present)
+  - **USB** function owner (HSIC host / gadget device driver, 2012-2013)
   - Implement SIM/USIM EF header parser, dynamic USB port selector, and other native libraries / services in **C/C++**
   - Implement **automatic time / time zone detecting service** on HomeyComb, and IANA time zone database debugging.
   - Design / implement / refact some abstract layers in **Android RIL framework** to improve platform compatibility.
