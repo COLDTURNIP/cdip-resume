@@ -1,9 +1,7 @@
-## Extra Curriculum Experience {#extra .sec .group}
+## Public Speach {#extra .sec .group}
 
-- **Scout in National Flower Class**,  
-  The 38/308/380th Taipei Scout Group of Tatung Co., Scouts of China (1996-2004)
-- **Chairman**, Infomation Department in Student Association of CE Department,  
-  NCU (2004-2005)
-- **Member**, SNMG (System and Network Management Group),  
-  Department of EE/CE, NCU (2004-2006)
+- **Adaptive Cluster - Kubernetes Operator 5W1H**,  
+  COSCUP 2024 (KCD Taiwan)
+  https://kcd-taipei-2024.sessionize.com/session/705610
+  https://tinyurl.com/rfnscoscup2024
 

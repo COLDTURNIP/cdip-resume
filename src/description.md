@@ -1,8 +1,10 @@
-##Description {#description .sec .group}
+## Description {#description .sec .group}
 
-Yun-Chang (Raphanus) Lo is a system programmer.
+Senior system and backend developer, interested on lower level system behavior.
 
-As a Android developer, he is a BSP engineer dedicated on framework layer and Linux kernel drivers.
+Cloud-native security platform development and integration, in IBM Security.
 
-As a student, he majored in signal processing in distributed wireless communication system.
+Web reputation service backend, in Trend Micro.
+
+Android BSP, focus on radio interface layer and Bluetooth stack, in ASUS.
 

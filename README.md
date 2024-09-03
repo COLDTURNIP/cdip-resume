@@ -1,16 +1,14 @@
 ## Pre-requirement ##
 
-These documents are designed to be built with **pandoc**. Please install it
+These documents are designed to be built with **pandoc**. Please install them
 first.
 
 For OSX, I recommand to install them with Haskell cabal:
 
-    brew install haskell-platform
-    cabal update
-    cabal install pandoc
+    brew install pandoc
 
-If you need the PDF format output, pandoc needs **LaTeX** to do this. I
-installed [MacTex](http://tug.org/mactex/) on my Mac.
+If you need the PDF format output, pandoc needs **LaTeX** to do this.
+Recommend [MacTex](http://tug.org/mactex/) and xelatex as the render engine.
 
 
 ## Editing ##

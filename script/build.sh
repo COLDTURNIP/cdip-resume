@@ -91,9 +91,9 @@ eval ${pandocHtmlCmd}
 ## Convert the HTML CV into PDF CV
 #
 
-pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex \
+pandoc --pdf-engine=xelatex -H ${cvSrcDir}/style-header.tex \
   "${pandocCvHtmlOut}" -o "${cvOutDir}/${cvName}.tex"
-pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex \
+pandoc --pdf-engine=xelatex -H ${cvSrcDir}/style-header.tex \
   "${pandocCvHtmlOut}" -o "${cvOutDir}/${cvName}.pdf"
 
 ###
@@ -108,7 +108,7 @@ pandoc --section-divs -f markdown -t html5 -o "${pandocRefHtmlOut}" \
     "${cvSrcDir}/references.md"
 
 # Convert HTML to PDF
-pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocRefHtmlOut}" \
+pandoc --pdf-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocRefHtmlOut}" \
     -o "${cvOutDir}/${author} - References - $(date +%Y-%m-%d).pdf"
 fi
 
@@ -117,12 +117,10 @@ fi
 #
 
 # Convert to HTML
-pandocCovHtmlOut=${cvOutDir}/cover-letter.html
-pandoc --section-divs -f markdown -t html5 -o "${pandocCovHtmlOut}" \
-    "${cvSrcDir}/cover-letter.md"
+# pandocCovHtmlOut=${cvOutDir}/cover-letter.html
+# pandoc --section-divs -f markdown -t html5 -o "${pandocCovHtmlOut}" \
+#     "${cvSrcDir}/cover-letter.md"
 
 # Convert HTML to PDF
-pandoc --latex-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocCovHtmlOut}" \
-    -o "${cvOutDir}/${author} - Cover Letter - $(date +%Y-%m-%d).pdf"
-
-
+# pandoc --pdf-engine=xelatex -H ${cvSrcDir}/style-header.tex "${pandocCovHtmlOut}" \
+#     -o "${cvOutDir}/${author} - Cover Letter - $(date +%Y-%m-%d).pdf"

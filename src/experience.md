@@ -1,27 +1,41 @@
-## Professional Experience: Software Development {#experience .sec .group}
+## Professional Experience {#experience .sec .group}
 
-### ASUSTeK Computer Inc., Systems Business Group, Taipei
+### Security Lab, IBM
 
-BSP Software Engineer (2009-2013)
+Backend - Unified EdgeGateway in Cloud Pak for Security (2021-present)
 
-  - **3GPP SIM/USIM** related RIL functions maintainer (2009-2013)
-  - **Bluetooth** fucntion owner (BlueZ, 2011-2012)
-  - **USB** function owner (HSIC host / gadget device driver, 2012-2013)
-  - Implement SIM/USIM EF header parser, dynamic USB port selector, and other native libraries / services in **C/C++**
-  - Implement **automatic time / time zone detecting service** on HomeyComb, and IANA time zone database debugging.
-  - Design / implement / refact some abstract layers in **Android RIL framework** to improve platform compatibility.
-  - Write **Python** and **Bash/Ash shell scripts** in need of automated production/tests in factory.
-  - Use **Vim**, **Python**, and **Go** to make logs analysis and patch maintenance much simpler.
-  - Proficient in code flow of Android framework, native services, build system, and Linux kernel.
-  - On-site support
-    - **Google Nexus 7 (2012)**, RIL, USB, and system development, Mountain View, Oct 2012
-    - **Google Nexus 7 (2013)**, RIL and USB development, Mountain View, Mar 2013
-    - **Google Nexus 7 (2013)** and ME302KL, factory technical support, Shanghai, May 2013
-    - **Google Nexus 7 (2013)**, RIL, USB, and system development, Mountain View, Jun 2013
-  - Involved Projects
-    - Garmin-ASUS A50/A50: RIL
-    - Transformer TF101/G/WiMAX, TF201, Slider SL101: RIL, Bluetooth
-    - Transformer TF300T/TG/TL, TF700T, ME301T, ME302KL: RIL, USB
-    - Google Nexus 7 (2012/2013): RIL, USB
-    - FonePad ME560CG: RIL
+  - RESTEasy JAX-RS, Fabric8, Kubernetes (OpenShift / K3s), Next.js
+  - Integration to IBM CP4S and on-premises platforms
+  - Design and implement distributed cross-cluster Kubernetes-based application management system
+  - IBM Security Taipei 2024Q3 Hackday champion
+  - Support render server development while development resource shortage
+
+Hybrid Cloud System Development - SysFlow (2020-2021)
+
+  - Go, C++, Docker/CRI-O, PyTest
+  - Developer of open source project https://github.com/sysflow-telemetry
+  - Integration to IBM CP4S, RedHat OpenShift, and vanilla Kubernetes-like clusters
+  - Design and implement isolated E2E test pipeline
+  - IBM Security Taipei 2020 Hackday champion
+  - Lead a patent group and successfully designed a method for clustered container protection
+
+### CoreTech Web Reputation Service, TrendMicro
+
+Backend (2014-2020)
+
+  - Python, Go, Spark, AWS
+  - Module design/implementation of detection judgement pipeline
+  - Redesign internal framework to turn Python2-CentOS based modules into Python2/3-crossplatform RESTful microservices with zero impact to existed on-production services
+  - Improve realtime distributed detection service throughput capacity
+  - Internal education about Go and Dockerize system design
+
+### Systems Business Group, ASUSTeK Computer Inc.
+
+Android BSP (2009-2013)
+
+  - Java, C, C++, Linux kernel, Go/Python
+  - 3GPP SIM/USIM related RIL functions maintainer (2009-2013)
+  - Bluetooth fucntion owner (BlueZ, 2011-2012)
+  - USB function owner (HSIC host / gadget device driver, 2012-2013)
+  - On-site support: RIL, USB, and system development, Mountain View, 2012-2013
 
