@@ -58,9 +58,9 @@ orderedFile="       \
   description       \
   experience        \
   skills            \
-  education         \
   research          \
   experience-extra  \
+  education         \
   links             \
   "
 
