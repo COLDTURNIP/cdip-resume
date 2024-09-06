@@ -5,16 +5,11 @@ STYLE=chmduquesne
 
 all: html pdf docx rtf
 
-pdf: init
-	set -x
+pdf: html
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
-			--from markdown --to context \
-			--variable papersize=A4 \
-			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
-		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		wkhtmltopdf $(OUT_DIR)/$$FILE_NAME.html $(OUT_DIR)/$$FILE_NAME.pdf; \
 	done
 
 html: init

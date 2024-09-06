@@ -3,8 +3,9 @@ FROM pandoc/extra:3.3-ubuntu
 RUN <<-EOF
   set -x
   apt update
-  apt install -y make context texlive texlive-latex-base texlive-extra-utils texlive-latex-extra texlive-lang-chinese
+  apt install -y make wkhtmltopdf
   apt install -y fonts-noto-cjk fonts-noto-mono fonts-noto-color-emoji
+  rm -rf /var/lib/apt/lists/* || true
 EOF
 
 ENV TEXMF /usr/share/texmf-dist

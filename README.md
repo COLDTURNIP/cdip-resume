@@ -27,6 +27,13 @@ make html
 Build image and make everything
 
 ```bash
+docker build -t resume-make:latest -f docker/resume.dockerfile .
+docker run --rm -v .:/home/app/resume:z -w /home/app/resume resume-make:latest make all
+```
+
+Or chaining with Docker Compose
+
+```bash
 docker-compose up
 ```
 
