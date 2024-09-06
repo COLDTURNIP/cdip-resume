@@ -37,7 +37,7 @@ Security Lab,<br>IBM
     * IBM Security Taipei 2024Q3 Hackday champion
     * Support render server development while development resource shortage
 
-:   **(2020-2021) Hybrid cloud system development:**
+:   **(2020-2021) Hybrid cloud system development**
     Integrate SysFlow, an open source OS telemetry system for containerized microservices,
     into IBM Cloud Pak for Security, RedHat OpenShift, and vanilla Kubernetes-like clusters.
 
